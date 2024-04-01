@@ -1,50 +1,58 @@
 <!DOCTYPE html>
-<html land="en">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="form-div">
-      <header>
-        <h1 id="title">Survey Form</h1>
-        <p id="description">Project of a survey form to colect from users. Made with the knowledge of the Responsive Web design course</p>
-      </header>
-      <form id="survey-form">
-        <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <label for="number" id="number-label">Lucky number</label>
-        <input type="number" id="number" min="1" max="999" placeholder="Enter your lucky number">
-        <label for="dropdown" id="dropdown-label">Your choice (for the rest of your life)</label>
-        <select id="dropdown">
-          <option disabled selected value>Red or Blue</option>
-          <option value="red">Red</option>
-          <option value="blue">Blue</option>
-        </select>
-        <label for="radio" id="radio-label">Have you watched a movie or read a book in the last week?</label>
-        <div id="radio-div">
-          <input type="radio" value="yes" name="radio" checked>Yes
-          <br>
-          <input type="radio" value="no" name="radio">No
-        </div>
-        <label for="check" id="check-label">What is/are your favorite genre?</label>
-        <div id="check-div">
-          <input type="checkbox" value="fantasy" name="genre">Fantasy
-          <br>
-          <input type="checkbox" value="horror" name="genre">Horror
-          <br>
-          <input type="checkbox" value="romance" name="genre">Romance
-          <br>
-          <input type="checkbox" value="cyberpunk" name="genre">Cyberpunk
-        </div>
-        <label for="text" id="text-label">Write about your favorite movie or book of all time</label>
-        <textarea id="text" placeholder="Write your answer here..."></textarea>
-        <button type="submit" id="submit">Submit</button>
-      </form>
-    </div>
+    <main id="main">
+      <h1 id="title">
+        Alberto Santos Dumont
+      </h1>
+      <p id="aviation">
+        The father of aviation
+      </p>
+      <div id="img-div">
+        <img id="image" src="https://adslatin.com/wp-content/uploads/2019/07/santos-dumont-14-bis.jpeg" alt="Illustration of Santos Dumont flying in the 14-bis" />
+        <figcaption id="img-caption">
+          Illustration of the first flight of Santos Dumont in his first plane, the 14-bis.
+        </figcaption>
+      </div>
+      <div id="tribute-info">
+        <h2 id="headline">The life of Santos Dumont</h2>
+        <ul>
+          <li>
+            <strong>1873 - </strong>Born in Santos Dumont, Minas Gerais, Brasil. Formely Palmira.
+          </li>
+          <li>
+            <strong>1888 - </strong>At the age of 15, saw his first manned flight. Stanley Spencer flew in a baloon and landed with a parachute.
+          </li>
+          <li>
+            <strong>1891 - </strong>Started to develop an interest about the mechanical world. Especially, about the internal combustion engine. Resulting in the creaton of a engineless baloon.
+          </li>
+          <li>
+            <strong>1903 - </strong>Recieved a grant from the town hall of <i>Ribeirão Preto</i> to continue his research.
+          </li>
+          <li>
+            <strong>1898 to 1905 - </strong>Built a lot of models, from n-1 to n-10, they were airships. from n-11 to n-13, started to build model airplanes and a helicopter. The n-14 had two versions (n-14a and n-14b), it was a airship, it had two versions because of the engine used in each version.
+          </li>
+          <li>
+            <strong>1906 - </strong>Finally built the model airplane 14-bis. A plane attached to a hydrogen balloon to reduce weight and facilitate takeoff.
+          </li>
+          <li>
+            <strong>1907 to 1908 - </strong>He didn't stop to build aeroplanes, after 14-bis came the n-15 and n-16 (a mix of airship and plane). He even built two aquatic slide, n-17 and n-18, used for test the format of the wing submerged.
+          </li>
+          <li>
+            <strong>1909 - </strong>Built the <i>Demoiselle Nº20</i>, considered the first ultralight ever made. It was used to train the soldiers of the Great War, due to its low cost and high safety. The engine used in this plane was a original creation of Santos Dumont. This plane consolidated Dumont's role in the birth of aviation in the XX century.
+          </li>
+          <li>
+            <strong>1932 - </strong>Died at the age of 59. His name was used to rename the city he was born.
+          </li>
+        </ul>
+        <p id="wiki">If you want to learn more about Santos Dumont visit his <a id="tribute-link" href="https://pt.wikipedia.org/wiki/Santos_Dumont" target="_blank">Wikipedia page</a>.</p>
+      </div>
+    </main>
   </body>
 </html>
