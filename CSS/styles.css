@@ -12,6 +12,14 @@
   
   .nav-li {
     list-style: none;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    padding: 1px;;
+  }
+
+  .nav-li:hover {
+    padding: 3px;
   }
   
   a {
@@ -53,8 +61,12 @@
   #div-nav-bar {
     position: absolute;
     width: 50%;
-    right: 10;
+    right: 10px;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
   }
   
   #nav-ul {
