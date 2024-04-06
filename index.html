@@ -3,79 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
+    <title>Personal Portifolio Webpage</title>
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
-    <header id="header">
-      <div id="div-img">
-        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/9119545-smg-logo-smg-letter-smg-letter-logo-design-initials-smg-logo-linked-with-circle-and-uppercase-monogram-logo-smg-typography-for-technology-business-and-real-marca-imobiliaria-vetor.jpg" id="header-img" alt="SMG logo" width="70px">
+
+  <!-- START NAVBAR -->
+
+  <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  <!-- END NAVBAR -->
+
+  <!-- START WELCOME -->
+
+    <section id="welcome-section" class="welcome">
+      <h1>Hello, I am Pedro Saito</h1>
+      <p>Software Developer Intern</p>
+    </section>
+
+  <!-- END WELCOME -->
+
+  <!-- START PROJECTS -->
+
+    <section id="projects" class="projects-sec">
+      <h2 class="projects-header">Projects From <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a></h2>
+
+      <div class="projects-grid">
+        <a 
+          href="ResponsiveWebDesign_ProductLandingPage/index.html" 
+          target="_blank" 
+          class="project project-tile">
+          <img 
+            src="ResponsiveWebDesign_ProductLandingPage/LandingPage.png" 
+            alt="'Product Landing Page' Project Image"
+            width="100%"
+            class="project-img">
+          <p class="project project-title">Product Landing Page</p>
+        </a>
+      
+        <a 
+          href="ResponsiveWebDesign_TechnicalDocumentationPage/index.html" 
+          target="_blank" 
+          class="project project-tile">
+          <img 
+            src="ResponsiveWebDesign_TechnicalDocumentationPage/DocumentationPage.png" 
+            alt="'Technical Documentation Page' Project Image"
+            width="100%"
+            class="project-img">
+          <p class="project project-title">Technical Documentation Page</p>
+        </a>
+      
+        <a 
+          href="ResponsiveWebDesign_TributePage/index.html" 
+          target="_blank" 
+          class="project project-tile">
+          <img 
+            src="ResponsiveWebDesign_TributePage/TributePage.png" 
+            alt="'Tribute Page' Project Image"
+            width="100%"
+            class="project-img">
+          <p class="project project-title">Tribute Page</p>
+        </a>
+      
+        <a 
+          href="ResponsiveWebDesign_SurveyForm/index.html" 
+          target="_blank" 
+          class="project project-tile">
+          <img 
+            src="ResponsiveWebDesign_SurveyForm/SurveyForm.png" 
+            alt="'Survey Form' Project Image"
+            width="100%"
+            class="project-img">
+          <p class="project project-title">Survey Form</p>
+        </a>
       </div>
-      <div id="div-brand-name">
-        <h2>Social Media Growth</h2>
-      </div>
-      <div id="div-nav-bar">
-        <nav id="nav-bar">
-          <ul id="nav-ul">
-            <li class="nav-li">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li class="nav-li">
-              <a class="nav-link" href="#how-it-works">What we offer</a>
-            </li>
-            <li class="nav-li">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section id="features" class="space"></section>
-    <h2 class="section-title">Features</h2>
-    <section id="features2">
-      <div class="desc">
-        <h3>Grow your followers</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ex in nunc dignissim tincidunt. Donec mattis lorem justo. Sed quis libero in enim tempus efficitur.</p>
-      </div>
-      <div class="desc">
-        <h3>Organize your profile</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ex in nunc dignissim tincidunt. Donec mattis lorem justo. Sed quis libero in enim tempus efficitur</p>
-      </div>
-      <div class="desc">
-        <h3>Improve your posts</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ex in nunc dignissim tincidunt. Donec mattis lorem justo. Sed quis libero in enim tempus efficitur</p>
+
+    </section>
+
+  <!-- END PROJECTS -->
+
+  <!-- START CONTACT -->
+
+    <section id="contact" class="contact">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>consectetur adipiscing elit</p>
+      <div class="contact-links">
+        <a 
+          id="LinkedIn-link" 
+          href="https://www.linkedin.com/in/pedro-henrique-saito-de-souza-b9501015a/" 
+          target="_blank"
+          class="contact-detail"><i class="fa-linkedin"></i>LinkedIn
+        </a>
+
+        <a 
+          id="profile-link" 
+          href="https://www.github.com/pedro-saito" 
+          target="_blank"
+          class="contact-detail"><i class="fa-github"></i>GitHub
+        </a>
       </div>
     </section>
-    <section id="how-it-works" class="space"></section>
-    <h2 class="section-title">What we offer</h2>
-    <section id="how-it-works2">
-      <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/3MwMII8n1qM?si=9sWQvtpFGlEGpIB3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-    <section id="pricing" class="space"></section>
-    <h2 class="section-title">Pricing</h2>
-    <section id="pricing2">
-      <div class="service" id="platinum">
-        <div id="plan">Platinum</div>
-        <h3>R$2000/month</h3>
-        <ul>
-          <li>Lorem Ipsum</li>
-          <li>Lorem Ipsum</li>
-          <li>Lorem Ipsum</li>
-        </ul>
-        <button class="button">Select</button>
-      </div>
-    </section>
-    <section id="contact" class="space"></section>
-    <section id="contact2">
-      <h3>Do you have interest?</h3>
-      <p>Fill your email! We'll get in touch</p>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input name="email" id="email" type="email" placeholder="Your best email" required>
-        <input id="submit" type="submit" value="submit" class="button">
-      </form>
-    </section>
+  
+  <!-- END CONTACT -->
+
 </body>
 </html>
