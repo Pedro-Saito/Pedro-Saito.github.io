@@ -190,3 +190,17 @@
       flex-direction: column;
     }
   }
+
+  @media (max-width: 500px) {
+    .service > #plan {
+      font-size: 1rem;
+    }
+
+    .service > h3 {
+      font-size: 1rem;
+    }
+
+    .service > ul {
+      list-style: none;
+    }
+  }
